@@ -93,7 +93,7 @@ public class Screen {
 
     public void twelveOunceCanCalculation() {
         units = threshold * (1.0/poundsPerGallon) * 128 * (1.0/12.0);
-        setUnitsLabelAndTextField("No. Cans");
+        setUnitsLabelAndTextField("No. Cans:");
     }
 
     public void fifteenOunceCanCalculation() {
